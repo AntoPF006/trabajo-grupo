@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro del Proyecto</title>
+</head>
+<body>
+
+    <h2>Formulario de Contacto del Grupo</h2>
+
+    <form action="#" method="POST">
+        <!-- Campo de Nombre -->
+        <label for="nombre">Nombre Completo:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <!-- Campo de Correo -->
+        <label for="email">Correo Institucional:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Lista desplegable -->
+        <label for="rol">Rol en el equipo:</label><br>
+        <select id="rol" name="rol">
+            <option value="diseno">Diseño</option>
+            <option value="programacion">Programación</option>
+            <option value="documentacion">Documentación</option>
+        </select><br><br>
+
+        <!-- Área de texto para comentarios -->
+        <label for="comentario">Comentarios:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar Registro</button>
+    </form>
+
+</body>
+</html>
